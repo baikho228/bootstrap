@@ -1,0 +1,27 @@
+img {
+    width: 150px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    margin-top: 100px;
+}
+.main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.Accordion {
+    /* display: grid;
+    justify-content: center;
+    align-items: end; */
+}
+@media screen and (max-width: 767px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 10px;
+        margin-top: 100px; 
+    }
+  }
